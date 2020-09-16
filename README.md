@@ -6,5 +6,3 @@ Times slots are segmented into blocks, which change color based off the time of 
 You can enter text into any of these blocks, and it will save locally so it can be recalled whenever you open the page back up.
 
 It also tells you the exact date and time when you start up the page, down to the second. Unnecessary? Probably, but I like it so there it is.
-
-(possible) bonus. Try putting the word "Sleep" in two segments, ex: 10 P.M. and 8 A.M.
