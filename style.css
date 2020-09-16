@@ -44,7 +44,7 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #646566;
   color: white;
 }
 
@@ -55,6 +55,11 @@ textarea {
 
 .future {
   background-color: #77dd77;
+  color: white;
+}
+
+.sleeping {
+  background-color: #4f92ff;
   color: white;
 }
 
