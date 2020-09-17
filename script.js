@@ -6,7 +6,34 @@ let saveBtn = $(".saveBtn");
 
 let currentHour = moment().format('HH');
 
+let storedItems = {
 
+  twelveAm: "",
+  oneAm: "",
+  twoAm: "",
+  threeAm: "",
+  fourAm: "",
+  fiveAm: "",
+  sixAm: "",
+  sevenAm: "",
+  eightAm: "",
+  nineAm: "",
+  tenAm: "",
+  elevenAm: "",
+  twelvePm: "",
+  onePm: "",
+  twoPm: "",
+  threePm: "",
+  fourPm: "",
+  fivePm: "",
+  sixPm: "",
+  sevenPm: "",
+  eightPm: "",
+  ninePm: "",
+  tenPm: "",
+  elevenPm: "",
+
+};
 
 //Displays today's date and time at the top of the planner, in the current day div.
 
@@ -41,7 +68,11 @@ $(document).ready(function () {
 
 //Allows input in the fields created in the time slots to be saved to local storage.
 $(".saveBtn").click(function () {
-  console.log("button works"); 
+  
+  for (let i = 0; i < array.length; i++) {
+    localStorage.setItem();
+    
+  }
 });
 
 
